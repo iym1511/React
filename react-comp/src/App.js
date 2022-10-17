@@ -8,6 +8,7 @@ import StateComp from './components/StateComp';
 import StateFuncComp from './components/StateFuncComp';
 import EventComp from './components/EventComp';
 import EventFuncComp from './components/EventFuncComp';
+import EventComp98p from './components/EventComp98p';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <StateFuncComp />
         <EventComp />
         <EventFuncComp />
+        <EventComp98p />
       </header>
     </div>
   );
