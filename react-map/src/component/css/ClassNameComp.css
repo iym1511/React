@@ -1,0 +1,20 @@
+.on {
+    color: black;
+}
+.off{
+    color: rgb(196, 196, 196);
+
+}
+button{
+    transition: transform ease-in-out .3s;
+    border: none;
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(132, 190, 132);
+    transform: scale(1.3);
+}
