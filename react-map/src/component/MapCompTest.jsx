@@ -10,7 +10,7 @@ class MapCompTest extends Component {
         };
         this.deleteName=(index)=>{
             // 이름값을 가져와서
-            // state.names의 filter를 통해서 이름을 제외하고 배열 만듦 (! 해야 배열 삭제요청)
+            // state.names의 filter를 통해서 이름을 제외하고 배열 만듦 (! 해야 filter배열 삭제됨)
             // (n,i) 매개변수 .map에 물려주기
             const newNames = this.state.names.filter((n,i)=>i!=index)
             this.setState({names:newNames});
