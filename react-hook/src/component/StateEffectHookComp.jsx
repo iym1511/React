@@ -27,7 +27,7 @@ const StateEffectHookComp = () => {
     // 특정한 state의 값이 바뀔때 실행하고 싶을때 useEffect 사용
     useEffect(()=>{
         console.log("카운트가 증가하였습니다");
-    },[count])
+    },[count]) // 모두실행떄는 2번째인수 지정 x
 
     return (  
         <div>

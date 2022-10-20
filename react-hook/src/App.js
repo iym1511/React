@@ -5,6 +5,8 @@ import ReducerComp from './component/ReducerComp';
 import USeMemoComp from './component/UseMemoComp';
 import CallbackComp from './component/CallbackComp';
 import RefComp from './component/RefComp';
+import ContextCompAll from './component/ContextCompAll';
+import ContextParentComp1 from './component/ContextParentComp1';
 
 function App() {
   return (
@@ -14,6 +16,9 @@ function App() {
       <USeMemoComp />
       <CallbackComp />
       <RefComp />
+      <ContextCompAll />
+      <ContextParentComp1 />
+
     </div>
   );
 }

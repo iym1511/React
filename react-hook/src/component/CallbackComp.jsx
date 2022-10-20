@@ -21,6 +21,7 @@ const CallbackComp = () => {
     },[count])
 
     return (  
+        
         <div>
             <input type="text" onChange={onchange} />
             <button onClick={changeName}>이름:{name}</button>
