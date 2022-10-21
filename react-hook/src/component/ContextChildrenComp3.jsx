@@ -8,6 +8,8 @@ const ContextChildrenComp3 = () => {
         <div>
             <h1>{state.count}</h1>
             <button onClick={()=>{dispatch({type:"increment"})}}>+1</button>
+            <button onClick={()=>{dispatch({type:"decrement"})}}>-1</button>
+            <button onClick={()=>{dispatch({type:"zero"})}}>0</button>
         </div>
     );
 }

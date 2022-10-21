@@ -7,6 +7,9 @@ import CallbackComp from './component/CallbackComp';
 import RefComp from './component/RefComp';
 import ContextCompAll from './component/ContextCompAll';
 import ContextParentComp1 from './component/ContextParentComp1';
+import Pltc from './component/Pltc';
+import PlReducer from './component/PlReducer';
+import Check from './component/Check';
 
 function App() {
   return (
@@ -18,7 +21,9 @@ function App() {
       <RefComp />
       <ContextCompAll />
       <ContextParentComp1 />
-
+      <Pltc />
+      <PlReducer />
+      <Check />
     </div>
   );
 }
